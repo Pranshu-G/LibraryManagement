@@ -1,0 +1,7 @@
+spring:
+  batch:
+    job:
+      enabled: false
+  datasource:
+    url: jdbc:derby://localhost:1527/giretest
+    driver-class-name: org.apache.derby.jdbc.ClientDriver
